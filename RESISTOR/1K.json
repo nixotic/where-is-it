@@ -1,6 +1,7 @@
 {
    "class" : "resistor",
    "value" : "1K",
+   "value_dec" : 1e3,
    "symbols" : [
       {
          "program" : "gEDA",
@@ -15,6 +16,8 @@
       {
          "manufacturer" : "Yageo",
          "manufacturer_part_number" : "xxx123",
+         "power" : "1/8 Watt",
+         "power_dec" : 0.125,
 	 "footprint" : [
 	    {
 	    	"name" : "0603",
