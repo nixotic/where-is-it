@@ -1,0 +1,25 @@
+{
+   "class" : "resistor",
+   "value" : "10K",
+   "symbols" : [
+      {
+         "program" : "gEDA",
+         "data_link" : "link1"
+      },
+      {
+         "program" : "gEDA",
+	 "data_link" : "link2"
+      }
+   ]
+   "components" : [
+      {
+         "manufacturer" : "Yageo",
+         "manufacturer_part_number" : "xxx123",
+	 "footprint" : "link"
+      },
+      {
+         "xxx"
+      }
+   ]
+}
+
