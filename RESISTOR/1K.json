@@ -1,21 +1,32 @@
 {
    "class" : "resistor",
-   "value" : "10K",
+   "value" : "1K",
    "symbols" : [
       {
          "program" : "gEDA",
-         "data_link" : "link1"
+         "link" : "link1"
       },
       {
          "program" : "gEDA",
-	 "data_link" : "link2"
+	 "link" : "link2"
       }
    ]
    "components" : [
       {
          "manufacturer" : "Yageo",
          "manufacturer_part_number" : "xxx123",
-	 "footprint" : "link"
+	 "footprint" : [
+	    {
+	    	"name" : "0603",
+	    	"description" : "0603 standard (imperial) surface mount footprint",
+	    	"link" : "link"
+	    },
+	    {
+	    	"name" : "0603_W",
+	    	"description" : "0603 wide (imperial) surface mount footprint",
+	    	"link" : "link"
+	    }
+	 ]
       },
       {
          "xxx"
