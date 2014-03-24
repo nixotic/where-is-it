@@ -5,16 +5,15 @@ A database of things. This is currently just an idea.
 
 The primary intended function is to be able to track electronic components and related info, but why stop with components?
 
-Ideas.
+# Ideas
 
   * Database uses a format that lends itself to being version controlled (eg via git)
     * Eg. Text based (maybe even human readable? YAML?)
-  *     
   * Coding to be done as much as possible in python
   * Open front end interface (eg. JSON) 
     * The back end tracking/DB system shouldn't be tied to a GUI/front-end
 
-Example Component Info
+# Example Component Info
   * Short name (eg 10K Resistor)
   * Description (Resistor, 10K Ohm, 1/8 Watt, Surface Mount)
   * Footprint name (SMD0805)
